@@ -3,7 +3,7 @@ waga = float(input())
 print("Jaki jest twój wzrost w m?")
 wzrost = float(input())
 BMI = waga / (wzrost ** 2)
-print("Twoje BMI wynosi:", BMI)
+print("Twoje BMI wynosi:", round (BMI,2))
 
 
 
