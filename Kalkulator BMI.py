@@ -7,3 +7,4 @@ print("Twoje BMI wynosi:", round (BMI,2))
 
 
 
+
