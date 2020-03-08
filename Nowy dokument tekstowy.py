@@ -33,8 +33,13 @@ print("| {:6.3f} | {:16s} | {:10s} |" .format(9.69, "Yohan Blake", "23.09.2012")
 print("| {:6.1f} | {:16s} | {:10s} |" .format(9.74, "Asafa Powell", "2.09.2008"))
 print("-" * szer)
 
-waluta = "dolar"
+waluta = 'dolar'
 us = 1
 pln = 4.08234915
 print("Aktualnie %d %s kosztuje %.2f zł" % (us, waluta, pln))
 print("Aktualnie %r %r kosztuje %r zł" % (us, waluta, pln))
+print("Aktualnie %r %s kosztuje %r zł" % (us, waluta, pln))
+
+print ("{} ma {}".format("Ala", "kota"))
+print ("{1} ma {0}".format("Ala", "kota"))
+
